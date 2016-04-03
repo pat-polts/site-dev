@@ -1,3 +1,7 @@
+.env
+setup/
+composer.phar
+/vendor/
 # Logs
 logs
 *.log
