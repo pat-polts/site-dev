@@ -13,17 +13,27 @@
 	</head>
 	<body> 
 		<main>
+
 			<video autoplay  preload="auto"  loop id="media"> 
 				<source src="videos/website-video.webm" type="video/webm">
 				<source src="videos/website-video.mp4" type="video/mp4">
 			</video>
+
 			<figure>			
 				<img src="imgs/me.jpg" alt="Foto Perfil" title="Patricia Poltts foto." />
 			</figure>	
+
 			<hgroup>	
 				<h1>Patrícia Poltts</h1> 
 				<h2>Webdeveloper | UX Designer </h2> 
 			</hgroup>
+
+			<div class="controls">
+				<span>
+					<i class="fa fa-pause" aria-hidden="true"></i>
+				</span>
+			</div>
+
 		</main>
 	</body> 
 </html>
