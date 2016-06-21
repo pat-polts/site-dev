@@ -29,7 +29,7 @@
 			</hgroup>
 
 			<div class="controls">
-				<span>
+				<span id="action-button">
 					<i class="fa fa-pause" aria-hidden="true"></i>
 				</span>
 			</div>

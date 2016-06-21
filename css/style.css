@@ -82,6 +82,22 @@ video{
 
     object-fit: cover;
 }
+.controls{
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+    width: auto;
+}
+.controls > span > i{
+    font-size: 4em;
+    cursor: pointer;
+    color: rgba(255,255,255,.2);
+}
+.controls > span > i:hover{
+    transition: color ease-in .3s;
+    color: rgba(255,255,255,.8);
+}
+
 .font-base{
     font-family: '\'Montserrat\', sans-serif';
     font-size: 1em;
