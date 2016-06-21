@@ -1,8 +1,4 @@
-<!-- **************************************
-	Patrícia Poltts .: poltss@gmail.com :.
-	http://poltts.heroku.com 
-************************************** -->
-<html>
+<html lang="pt-BR">
 	<head>
 		<title>Patrícia Poltts, webdeveloper e ux designer portfolio site.</title>
 		<meta charset="utf-8">
@@ -23,16 +19,28 @@
 				<source src="videos/website-video.mp4" type="video/mp4">
 			</video>
 
-			<figure tabindex="1">			
+			<nav tabindex="1">
+				<span>					
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</span>
+				<ul>
+					<li>home</li>
+					<li>habilidades</li>
+					<li>portfolio</li>
+					<li>portfolio</li>
+				</ul>
+			</nav>
+
+			<figure tabindex="2">			
 				<img src="imgs/me.jpg" alt="Foto Perfil" title="Patricia Poltts foto." />
 			</figure>	
 
 			<hgroup>	
-				<h1 tabindex="2" title="Patrícia Poltts">Patrícia Poltts</h1> 
-				<h2 tabindex="3" title="Profissional web freelancer">Especialista em html5, css3, javascript e php</h2> 
+				<h1 tabindex="3" title="Patrícia Poltts">Patrícia Poltts</h1> 
+				<h2 tabindex="4" title="Profissional web freelancer">Especialista em html5, css3, javascript e php</h2> 
 			</hgroup>
 
-			<div class="controls" tabindex="4">
+			<div class="controls" tabindex="5">
 				<span id="action-button" onclick="toggleAction();" title="pause" >
 					<i class="fa fa-pause" aria-hidden="true"></i>
 				</span>
