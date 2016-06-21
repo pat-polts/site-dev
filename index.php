@@ -4,11 +4,11 @@
 ************************************** -->
 <html>
 	<head>
-		<title>Patrícia Poltts .: webdeveloper | UX Designer :.</title>
+		<title>Patrícia Poltts, webdeveloper e ux designer portfolio site.</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	    <meta name="description" content="Patrícia Poltts, Webdeveloper e UX designer freelancer. Há mais 10 anos no mercado web, solucionando desafios e resolvendo bugs.">
-	    <meta name="keywords" content="Patrícia Poltts, Webdeveloper, UX designer, Webdesigner, freelancer, web, experiência, eficiência, especialista, php, MySql, HTML 5, CSS 3, javascript, nodeJS, React JS, Laravel, CodeIgniter, websites, hot sites, programadora.">
+	    <meta name="description" content="Patrícia Poltts, profissional freelancer, há mais de 10 anos solucionando desafios e resolvendo bugs no mercado web.">
+	    <meta name="keywords" content="Webdeveloper, UX designer, Webdesigner, freelancer, web, especialista front-end, php, MySql, HTML 5, CSS 3, javascript, nodeJS, React JS, Laravel, CodeIgniter, websites, hot sites, programadora.">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -18,22 +18,22 @@
 	<body> 
 		<main>
 
-			<video autoplay  preload="auto"  loop id="media"> 
+			<video autoplay  preload="auto"  loop id="media" tabindex="0" > 
 				<source src="videos/website-video.webm" type="video/webm">
 				<source src="videos/website-video.mp4" type="video/mp4">
 			</video>
 
-			<figure>			
+			<figure tabindex="1">			
 				<img src="imgs/me.jpg" alt="Foto Perfil" title="Patricia Poltts foto." />
 			</figure>	
 
 			<hgroup>	
-				<h1>Patrícia Poltts</h1> 
-				<h2>Webdeveloper | UX Designer </h2> 
+				<h1 tabindex="2" title="Patrícia Poltts">Patrícia Poltts</h1> 
+				<h2 tabindex="3" title="Profissional web freelancer">Especialista em html5, css3, javascript e php</h2> 
 			</hgroup>
 
-			<div class="controls">
-				<span id="action-button" onclick="toggleAction();" title="pause">
+			<div class="controls" tabindex="4">
+				<span id="action-button" onclick="toggleAction();" title="pause" >
 					<i class="fa fa-pause" aria-hidden="true"></i>
 				</span>
 			</div>

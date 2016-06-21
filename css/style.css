@@ -4,7 +4,7 @@
 **************************************/
 
 body{
-    font-family: 'Montserrat', 'sans-serif';
+    font-family: 'Montserrat', arial, 'sans-serif';
     font-size: 1em;
     font-weight: normal;
     margin: 0;
@@ -14,6 +14,7 @@ body{
 section,figure,h1,h2{
     margin: 0;
     padding: 0;
+    outline: 0;
 }
 /*  */
 main{
@@ -43,7 +44,7 @@ hgroup{
   margin: 5.5em 0 0 0;
 }
 h1{
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: bold;
     width: 100%;
     margin: 1px auto;
@@ -53,15 +54,15 @@ h1{
     text-shadow: 1px 0 2px rgba(0,0,0,.4);
 }
 h2{
-    font-size: 2em;
+    font-size: 1.7em;
+    letter-spacing: 1px;
     font-weight: bold;
     width: auto;
     margin: 1px auto;
     padding: 0;
     text-align: left; 
-    color: #080808; 
-    text-shadow: 0px 0 3px rgba(255,255,255,.9);
-   /* color: rgb(2, 130, 2); */
+    color:  rgb(150, 243, 135); 
+    text-shadow: 0px 0 1px rgba(255,255,255,.5); 
 }
 h3{
     font-size: 1em;
@@ -91,6 +92,7 @@ video{
     bottom: 2em;
     right: 2em;
     width: auto;
+    outline: 0;
 }
 .controls > span[title]:first-letter{ text-transform: capitalize;}
 .controls > span > i{
@@ -103,6 +105,9 @@ video{
     color: rgba(255,255,255,.8);
 }
 
+/* fixed styles */
+.txt-green-light{  color: rgb(150, 243, 135); }
+.txt-blue-light{  color: #8A9FC1; }
 .font-base{
     font-family: '\'Montserrat\', sans-serif';
     font-size: 1em;

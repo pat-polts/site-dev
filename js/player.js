@@ -1,7 +1,8 @@
 /**************************************
-Patrícia Poltts .: poltss@gmail.com :.
-http://poltts.heroku.com
+	Patrícia Poltts .: poltss@gmail.com :.
+	http://poltts.heroku.com
 **************************************/
+
 document.addEventListener("DOMContentLoaded", function() { 
 	initPlayer(); 
 }, false);
