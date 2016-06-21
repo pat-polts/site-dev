@@ -13,7 +13,7 @@
 	</head>
 	<body> 
 		<main>
-			<video autoplay  preload="auto"  loop id="bg"> 
+			<video autoplay  preload="auto"  loop id="media"> 
 				<source src="videos/website-video.webm" type="video/webm">
 				<source src="videos/website-video.mp4" type="video/mp4">
 			</video>
