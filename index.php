@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	    <meta name="description" content="Patrícia Poltts, profissional freelancer, há mais de 10 anos solucionando desafios e resolvendo bugs no mercado web.">
 	    <meta name="keywords" content="Webdeveloper, UX designer, Webdesigner, freelancer, web, especialista front-end, php, MySql, HTML 5, CSS 3, javascript, nodeJS, React JS, Laravel, CodeIgniter, websites, hot sites, programadora.">
+    	<meta name="author" content="Patricia Poltts - patriciapoltts@gmail.com">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -24,10 +25,21 @@
 					<i class="fa fa-bars" aria-hidden="true"></i>
 				</span>
 				<ul>
-					<li>home</li>
-					<li>habilidades</li>
-					<li>portfolio</li>
-					<li>portfolio</li>
+					<li>
+						<a href="#home"> home </a> 
+					</li>
+					<li>
+						<a href=""> habilidades </a>
+					</li>
+					<li>
+						<a href=""> portfolio </a>
+					</li>
+					<li>
+						<a href=""> blog </a>
+					</li>
+					<li>
+						<a href=""> contato </a>
+					</li>
 				</ul>
 			</nav>
 
@@ -48,5 +60,12 @@
 
 		</main>
 		<script src="js/player.js"></script> 
+
+	    <!-- jQuery -->
+	    <script src="js/jquery.js"></script>
+
+	    <!-- Scrolling Nav JavaScript -->
+	    <script src="js/jquery.easing.min.js"></script>
+	    <script src="js/scrolling-nav.js"></script>
 	</body> 
 </html>
