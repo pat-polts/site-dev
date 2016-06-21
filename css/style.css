@@ -1,3 +1,7 @@
+/**************************************
+    Patrícia Poltts .: poltss@gmail.com :.
+    http://poltts.heroku.com
+**************************************/
 
 body{
     font-family: 'Montserrat', 'sans-serif';
@@ -88,6 +92,7 @@ video{
     right: 2em;
     width: auto;
 }
+.controls > span[title]:first-letter{ text-transform: capitalize;}
 .controls > span > i{
     font-size: 4em;
     cursor: pointer;

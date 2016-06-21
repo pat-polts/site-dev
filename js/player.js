@@ -1,9 +1,13 @@
+/**************************************
+Patrícia Poltts .: poltss@gmail.com :.
+http://poltts.heroku.com
+**************************************/
 document.addEventListener("DOMContentLoaded", function() { 
 	initPlayer(); 
 }, false);
  
 var player;
-var playPauseBtn;
+var actionBtn;
 
 function initPlayer() {
 
@@ -21,7 +25,7 @@ function initPlayer() {
 		
 }
 
-function togglePlayPause() {
+function toggleAction() {
 
 	if (player.paused) {
 		changeButton(actionBtn, 'pause');
@@ -32,8 +36,7 @@ function togglePlayPause() {
 	}
 }
 
-function changeButton(btn, value) {
+function changeButton(btn, value) { 
 	btn.title     = value;
-	// btn.innerHTML = value;
-	btn.className = value;
+	btn.innerHTML = '<i class="fa fa-'+value+'" aria-hidden="true"></i>';
 }
