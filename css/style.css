@@ -1,15 +1,20 @@
+/**************************************
+    Patrícia Poltts .: patriciapoltts@gmail.com :.
+    http://poltts.heroku.com
+**************************************/
 
 body{
-    font-family: 'Montserrat', 'sans-serif';
+    font-family: 'Montserrat', arial, 'sans-serif';
     font-size: 1em;
     font-weight: normal;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-section,figure,h1,h2{
+section,figure,h1,h2,nav{
     margin: 0;
     padding: 0;
+    outline: 0;
 }
 /*  */
 main{
@@ -20,15 +25,76 @@ main{
     min-height: 100%;
     margin: 0;
 }
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: 100%;
+    height: 120px;
+}
+nav{
+    width: auto;
+    float: right;
+    text-align: right;
+    padding: 0px;
+    width: 100%;
+    margin: 2em 0px 0px 0px;
+} 
+nav > span{
+    width: 3%;
+    height: 22%;
+    float: right;
+}
+nav > span > i{ 
+    font-size: 3em !important; 
+    cursor: pointer;
+    color: rgba(255,255,255,.2);
+}
+nav > span > i:hover {
+    transition: color ease-in .3s;
+    color: rgba(255,255,255,.8);
+}
+nav ul#nav-menu{ 
+    display: inline-block;
+    width: 97%;
+    margin: 3px 0px 0px 0px;
+    padding: 0px; 
+    float: left;
+    text-align: right;
+}
+nav ul#nav-menu li{
+    display: inline-block;
+    width: calc(100%/6);
+    font-size: 1.8em;
+    text-align: center;
+    letter-spacing: 1px;
+}
+nav ul#nav-menu li > a,
+    nav ul#nav-menu li > a:active,
+        nav ul#nav-menu li > a:visited {
+    color: rgb(255,255,255);
+    text-shadow: 0px -1px 1px rgb(150, 243, 135);
+    text-decoration: none;
+} 
+nav ul#nav-menu li > a:hover{
+    text-decoration: none;
+    transition: color ease-out .25s;
+    color: rgba(150, 243, 135,1);
+    text-shadow: 0px -1px 1px rgb(255, 255, 255);
+} 
 figure{
     width: auto;
-    margin: 2em 2em 0px 2em;
+    margin: 2em 2em 0px 0px;
     text-align: center;
     float: left;
 }
 figure img{
-    width: 14em;
-    height: 14em;
+    width: 10em;
+    height: 10em;
     margin: 0px;
     border: none;
     border-radius: 100%;
@@ -36,10 +102,10 @@ figure img{
 hgroup{
   width: auto;
   float: left;
-  margin: 5.5em 0 0 0;
+  margin: 2em 0 0 0;
 }
 h1{
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: bold;
     width: 100%;
     margin: 1px auto;
@@ -50,20 +116,20 @@ h1{
 }
 h2{
     font-size: 2em;
+    letter-spacing: 1px;
     font-weight: bold;
     width: auto;
     margin: 1px auto;
     padding: 0;
     text-align: left; 
-    color: #080808; 
-    text-shadow: 0px 0 3px rgba(255,255,255,.9);
-   /* color: rgb(2, 130, 2); */
+    color:  rgb(150, 243, 135); 
+    text-shadow: 0px 0 1px rgba(255,255,255,.5); 
 }
 h3{
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bold;
     width: auto;
-    margin: 6px auto;
+    margin: 1px auto;
     padding: 0;
     text-align: center; 
     color: #AFABAB; 
@@ -82,6 +148,41 @@ video{
 
     object-fit: cover;
 }
+#home{
+    // position: absolute;
+    // width: 100%;
+    // height: 100%;
+    // min-height: 100%;
+    // top: 0px;
+}
+#contato{
+    // position: absolute;
+    // width: 100%;
+    // height: 100%;
+    // min-height: 100%;
+    // top: 0px;
+    // background-color: #000;
+}
+.controls{
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+    width: auto;
+    outline: 0;
+} 
+.controls > span > i{
+    font-size: 4em;
+    cursor: pointer;
+    color: rgba(255,255,255,.2);
+}
+.controls > span > i:hover{
+    transition: color ease-in .3s;
+    color: rgba(255,255,255,.8);
+}
+
+/* fixed styles */
+.txt-green-light{  color: rgb(150, 243, 135); }
+.txt-blue-light{  color: #8A9FC1; }
 .font-base{
     font-family: '\'Montserrat\', sans-serif';
     font-size: 1em;
