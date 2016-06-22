@@ -29,17 +29,11 @@
 	</head>
 	<body> 
 		<main>
-
-			<video autoplay  preload="auto"  loop id="media" tabindex="0" > 
-				<source src="videos/website-video.webm" type="video/webm">
-				<source src="videos/website-video.mp4" type="video/mp4">
-			</video>
-
 			<nav tabindex="1">
 				<span>					
 					<i class="fa fa-bars" aria-hidden="true"></i>
 				</span>
-				<ul>
+				<ul id="navmenu">
 					<li>
 						<a href="#home"> home </a> 
 					</li>
@@ -73,6 +67,16 @@
 				</span>
 			</div>
 
+		<div id="home">
+			<video autoplay  preload="auto"  loop id="media" tabindex="0" > 
+				<source src="videos/website-video.webm" type="video/webm">
+				<source src="videos/website-video.mp4" type="video/mp4">
+			</video>
+		</div>
+
+		<div id="contato">
+			ops
+		</div>
 		</main>
 		<script src="js/player.js"></script> 
 

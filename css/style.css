@@ -11,7 +11,7 @@ body{
     padding: 0;
     overflow: hidden;
 }
-section,figure,h1,h2{
+section,figure,h1,h2,nav{
     margin: 0;
     padding: 0;
     outline: 0;
@@ -24,6 +24,32 @@ main{
     max-width: 100%;
     min-height: 100%;
     margin: 0;
+}
+nav{
+    width: auto;
+    float: right;
+    text-align: right;
+    padding: 0px;
+    width: 40%;
+    margin: 2em 2em 0px 0px;
+} 
+nav ul#navmenu{ 
+    display: inline-block;
+    list-style-type: none;
+    float: left;
+}
+nav ul#navmenu li{
+    display: inline-block;
+    width: calc(100%/5);
+}
+nav > span > i{
+    font-size: 3em !important; 
+    cursor: pointer;
+    color: rgba(255,255,255,.2);
+}
+nav > span > i:hover{
+    transition: color ease-in .3s;
+    color: rgba(255,255,255,.8);
 }
 figure{
     width: auto;
@@ -93,8 +119,7 @@ video{
     right: 2em;
     width: auto;
     outline: 0;
-}
-.controls > span[title]:first-letter{ text-transform: capitalize;}
+} 
 .controls > span > i{
     font-size: 4em;
     cursor: pointer;
