@@ -4,7 +4,6 @@
 				</span>
 		</div>
 		</main>
-		<script src="js/player.js"></script> 
 
 	    <!-- jQuery -->
 	    <script src="js/jquery.js"></script>
