@@ -1,5 +1,4 @@
 .env
-inc/data.php
 setup/
 composer.phar
 /vendor/
@@ -36,3 +35,6 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+
+/inc/data.php
