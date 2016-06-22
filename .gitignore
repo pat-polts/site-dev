@@ -1,4 +1,5 @@
 .env
+inc/data.php
 setup/
 composer.phar
 /vendor/
