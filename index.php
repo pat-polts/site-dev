@@ -1,3 +1,4 @@
+
 <?php include('header.php'); ?>
 	<div id="home">
 		<video autoplay  preload="auto"  loop id="media" tabindex="0" > 
@@ -10,4 +11,4 @@
 			kjdfsah dsahd jksahd 
 	</div>
 
-<?php include('footer.php'); ?>		
+<?php include('footer.php'); ?>	
