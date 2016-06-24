@@ -11,15 +11,11 @@
 	    <meta name="keywords" content="Webdeveloper, UX designer, Webdesigner, freelancer webdeveloper, php, MySql, HTML 5, CSS 3, javascript, JQuery,frameworks web, programadora php,
 	     Bootstrap, Less.">
     	<meta name="author" content="Patricia Poltts - patriciapoltts@gmail.com">
-
+    	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="css/scrolling-nav.css" rel="stylesheet">
 		<script src="js/player.js"></script> 
 		<script src="js/actions.js"></script> 
-
-	    <!-- Bootstrap Core CSS -->
-	    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-	    <!-- Custom CSS -->
-	    <link href="css/scrolling-nav.css" rel="stylesheet">
 
 	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,18 +24,16 @@
 	        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	    <![endif]-->
 	    
-		<link rel="stylesheet" href="css/style.css">
-		<script src="https://use.fontawesome.com/77d68e7a5b.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		<link rel="stylesheet" href="css/style.css"> 
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-79772229-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+		  ga('create', 'UA-79772229-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
 	</head>
 	<body> 
 		<main class="container-fluid">

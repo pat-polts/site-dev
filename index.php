@@ -1,4 +1,3 @@
-
 <?php include('header.php'); ?>
 	<div id="home">
 		<video autoplay  preload="auto"  loop id="media" tabindex="0" > 
