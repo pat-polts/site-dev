@@ -98,8 +98,11 @@ figure img{
     margin: 0px;
     border: none;
     border-radius: 100%;
+    cursor: pointer;
 }
+figure img:hover, hgroup{ display: block;}
 hgroup{
+    display: none;
   width: auto;
   float: left;
   margin: 2em 0 0 0;

@@ -38,38 +38,14 @@
 	<body> 
 		<main class="container-fluid">
 			<header>
-				<div class="col-xs-6 col-md-5">
-					<figure tabindex="2">			
-						<img src="imgs/me.jpg" alt="Foto Perfil" title="Patricia Poltts foto." />
+				<div class="col-xs-12">
+					<figure tabindex="2" id="picture">			
+						<img src="imgs/me.jpg" alt="Foto Perfil" title="Patricia Poltts - Webdeveloper freelancer." />
 					</figure>	
 
 					<hgroup>	
-						<h1 tabindex="3" title="Patrícia Poltts">Patrícia Poltts</h1> 
-						<h2 tabindex="4" title="Webdeveloper freelancer">Webdeveloper freelancer</h2> 
+						<h1 tabindex="3">Patrícia Poltts</h1> 
+						<h2 tabindex="4">Webdeveloper</h2> 
 					</hgroup>
-				</div>
-				<div class="col-xs-6 col-md-7">
-					<nav tabindex="1">
-						<span id="nav-btn">					
-							<i class="fa fa-bars" aria-hidden="true"  title="Abrir menu."></i>
-						</span>
-						<ul id="nav-menu" style="display: none;">
-							<li>
-								<a href="#home"> home </a> 
-							</li>
-							<li>
-								<a href="#habilidades"> habilidades </a>
-							</li>
-							<li>
-								<a href="#portfolio"> portfolio </a>
-							</li>
-							<li>
-								<a href="#blog"> blog </a>
-							</li>
-							<li>
-								<a href="#contato"> contato </a>
-							</li>
-						</ul>
-					</nav>
-				</div>
+				</div> 
 			</header>	

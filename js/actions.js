@@ -15,10 +15,10 @@ function menuHandle(){
 		
 		if(menuState !== 'none'){
 			$("#nav-btn").html('<i class="fa fa-bars" aria-hidden="true"  title="Abrir menu."></i>');
-			$("#nav-menu").hide();
+			$("#nav-menu").hide("slide");
 		}else{
 			$("#nav-btn").html('<i class="fa fa-times" aria-hidden="true" title="Fechar menu."></i>');
-			$("#nav-menu").show();
+			$("#nav-menu").show("slide");
 		}
 
 	});

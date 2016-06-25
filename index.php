@@ -5,9 +5,5 @@
 			<source src="videos/website-video.mp4" type="video/mp4">
 		</video>
 	</div>
-
-	<div id="habilidades" style="display: none;">
-			kjdfsah dsahd jksahd 
-	</div>
-
+ 
 <?php include('footer.php'); ?>	
