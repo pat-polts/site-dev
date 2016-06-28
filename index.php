@@ -7,6 +7,6 @@
 		</video>
 	</div>
 
- 	<span title="maintenance mode" class="maintenance-mode">maintenance mode</span>
+ 	<p title="maintenance mode" class="maintenance-mode">maintenance mode</p>
 
 <?php include('footer.php'); ?>	
