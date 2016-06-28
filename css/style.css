@@ -203,6 +203,15 @@ video{
     border: none;
     border-radius: 100%;
 }
+.maintenance-mode{
+    margin: 33% 0 0 0;
+    width: auto;
+    padding: 0;
+    float: left;
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+    font-size: 2em;
+}
 .gradient-black{
     background: #45484d;
     /* Old browsers */
