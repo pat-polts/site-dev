@@ -25,6 +25,7 @@
 	    <![endif]-->
 	    
 		<link rel="stylesheet" href="css/style.css"> 
+		<?php include 'inc/analytics.php'; ?>
 	</head>
 	<body> 
 		<main class="container-fluid">
